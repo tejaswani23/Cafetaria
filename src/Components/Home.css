@@ -1,0 +1,65 @@
+*{
+    background-color: rgb(84, 84, 85);
+}
+
+.title{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(198, 214, 213);
+    font-size: 70px;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:30px;
+    -webkit-text-stroke:0.3vw rgb(198, 214, 213);
+    text-transform: uppercase;
+    letter-spacing: 12px;
+}
+
+
+.image{
+    background-image: none;
+    width:300px;
+    height:300px;
+    display:block;
+    margin-left: auto;
+  margin-right: auto;
+  margin-bottom:30px;
+}
+
+.lines{
+    color:white;
+    text-align: center;
+    font-size:20px;
+}
+
+.abc{
+    color:rgb(179, 185, 235);
+    text-align: center;
+    font-size:20px;
+}
+
+.btns{
+    margin-top:20px;
+    margin-left:38vw;
+    display: flex;
+}
+.btns button{
+    border-radius:3px;
+    margin-left:20px;
+    margin-right:20px;
+    font-size:20px;
+    color:white;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border:2px 0px 2px 3px solid rgb(42, 42, 44);
+}
+
+@keyframes animate{
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width:100%;
+    }
+}
