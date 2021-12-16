@@ -43,7 +43,7 @@ function App() {
    <Route exact path="/" element={<Home setCoffee={setCoffee}/>}/>
    <Route path="/teamenu" element={<TeaMenu addItem={addItem} tea={tea} />}/>
    <Route path="/coffeemenu" element={<CoffeeMenu addValues={addValues} />}/>
-   <Route path="/order" element={<Order tea={tea} count={count} coffee={coffee} Citem={Citem} setCoffee={setCoffee} setCount={setCount}/>}/>
+   <Route path="/order" element={<Order tea={tea} count={count} coffee={coffee} Citem={Citem} setCoffee={setCoffee} setCount={setCount} setItem={setItem} setTea={setTea}/>}/>
    <Route path="/count" element={<Count count={count}  setCount={setCount} />}/>
    </Routes>
    </Router>

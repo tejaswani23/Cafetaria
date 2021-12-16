@@ -55,6 +55,100 @@
     border:2px 0px 2px 3px solid rgb(42, 42, 44);
 }
 
+.category{
+    color:rgb(176, 176, 187);
+    font-family:sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.list{
+    margin-left:42%;
+    font-size: 20px;
+    color:rgb(217, 217, 247);
+    font-family:cursive;
+    letter-spacing: 2px;
+}
+
+.btnw{
+    padding-left:40px;
+    padding-right:40px;
+    font-size: medium;
+    margin:20px;
+    background-color: rgb(93, 93, 107);
+}
+
+.btnw1
+{
+    padding-left:80px;
+    padding-right:80px;
+    font-size: medium;
+    margin-left:41%;
+    margin-top:40px;
+    background-color: rgb(195, 238, 205);
+    border-radius:5px;
+    color:rgb(238, 95, 28);
+    font-size:20px;
+    font-weight: bolder;
+    border:2px solid rgb(47, 47, 53);
+}
+
+.cnt{
+   text-align: center;
+   margin-top:40px;
+   font-size: xx-large;
+   font-family: cursive;
+   color:rgb(199, 160, 109)
+}
+
+.order{
+    background:rgb(96, 126, 143);
+    font-size:x-large;
+    border-radius:5px;
+    padding-left:40px;
+    padding-right:40px;
+    color:rgb(28, 27, 51);
+    font-family:sans-serif;
+    letter-spacing: 2px;
+    margin-left :45%;
+    margin-top:50px;
+
+}
+
+.container h2{
+    color:rgb(196, 179, 211);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:40px;
+}
+
+.container p{
+    color:rgb(196, 179, 211);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:40px;
+}
+
+.a{
+    color:rgb(196, 179, 211);
+    font-size: 15px;
+    font-family: cursive;
+    margin-left:40px;
+}
+
+.ch{
+    background:rgb(96, 126, 143);
+    font-size:x-large;
+    border-radius:5px;
+    padding-left:40px;
+    padding-right:40px;
+    color:rgb(38, 37, 56);
+    font-family:sans-serif;
+    letter-spacing: 2px;
+    margin-left :40px;
+    margin-top:50px;
+}
+
 @keyframes animate{
     0%,10%,100%{
         width: 0;
