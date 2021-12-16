@@ -1,12 +1,14 @@
 import React from 'react';
 import "./Home.css";
-
+import {motion} from "framer-motion";
 
 function Header() {
     return (
-        <div className="title" data-text="CAFETARIA">
+        <motion.div 
+        animate={{rotateZ:360}}
+        className="title" data-text="CAFETARIA">
             CAFETARIA
-        </div>
+        </motion.div>
     )
 }
 
