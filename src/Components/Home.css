@@ -25,6 +25,17 @@
   margin-bottom:30px;
 }
 
+.image1{
+    background-image: none;
+    width:300px;
+    height:300px;
+    display:block;
+    margin-top:200px;
+    margin-left: auto;
+  margin-right: auto;
+  margin-bottom:0;
+}
+
 .lines{
     color:white;
     text-align: center;
@@ -58,12 +69,30 @@
 .category{
     color:rgb(176, 176, 187);
     font-family:sans-serif;
-    text-align: center;
+    margin-left:200px;
     font-size: 30px;
+    display:block !important;
+}
+
+.category1{
+    color:rgb(176, 176, 187);
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 30px;
+    display:block !important;
 }
 
 .list{
-    margin-left:42%;
+    margin-left:10%;
+    font-size: 20px;
+    color:rgb(217, 217, 247);
+    font-family:cursive;
+    letter-spacing: 2px;
+}
+
+.list1{
+    margin-left:10%;
+    margin-top:100px;
     font-size: 20px;
     color:rgb(217, 217, 247);
     font-family:cursive;
@@ -119,21 +148,21 @@
     color:rgb(196, 179, 211);
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left:40px;
+    margin-left:100px;
 }
 
 .container p{
     color:rgb(196, 179, 211);
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left:40px;
+    margin-left:100px;
 }
 
 .a{
     color:rgb(196, 179, 211);
     font-size: 15px;
     font-family: cursive;
-    margin-left:40px;
+    margin-left:100px;
 }
 
 .ch{
@@ -153,20 +182,23 @@
     width: 10px;
     height: 10px;
     margin-left:47%;
-    margin-top:40px;
+    margin-top:45px;
     border-radius: 50%;
     background: #fff;
   }
+ 
 
   .loader{
     width: 10px;
     height: 10px;
-    margin-top:40px;
+    margin-top:45px;
     border-radius: 50%;
     background: #fff;
   }
 
-
+.flex{
+    display:flex;
+}
 
 @keyframes animate{
     0%,10%,100%{

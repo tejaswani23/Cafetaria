@@ -7,7 +7,7 @@ import "./Home.css";
 function Home({setCoffee}) {
     return (
         <div>
-            <img className="image" src={img1} alt="adsd"/>
+            <motion.img initial={{scale:0.5}} animate={{scale:1,transition:{duration:2}}}className="image" src={img1} alt="adsd"/>
             <div className="lines"><i>Are you tired,Need some therapy??</i></div>
             <div className="abc">Or</div>
             <div className="lines"><i>Feeling Sleepy😪??</i></div>
@@ -15,9 +15,9 @@ function Home({setCoffee}) {
             <div className="lines"><i>Whom you wanna invite??</i></div>
             <Loader/>
             <div className="btns">
-            <Link to="/coffeemenu"><motion.button animate={{rotateZ:360}} onClick={()=>setCoffee(true)}>Coffee</motion.button></Link>
+            <Link to="/coffeemenu"><motion.button whileHover={{scale:1.1,boxShadow:'0px 0px 2px white'}} onClick={()=>setCoffee(true)}>Coffee</motion.button></Link>
             <div className="abc"><i>Or</i></div>
-            <Link to="/teamenu"> <motion.button animate={{rotateZ:360}}>Tea</motion.button></Link>
+            <Link to="/teamenu"> <motion.button whileHover={{scale:1.1,boxShadow:'0px 0px 2px white'}}>Tea</motion.button></Link>
             </div>
         </div>
     )

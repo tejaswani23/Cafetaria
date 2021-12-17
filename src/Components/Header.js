@@ -5,7 +5,8 @@ import {motion} from "framer-motion";
 function Header() {
     return (
         <motion.div 
-        animate={{rotateZ:360}}
+        initial={{opacity:0}}
+        animate={{opacity:1,rotateZ:360}}
         className="title" data-text="CAFETARIA">
             CAFETARIA
         </motion.div>

@@ -1,12 +1,15 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import img1 from "../images/cofeee.png";
+import { motion } from 'framer-motion';
 import "./Home.css";
 
 function CoffeeMenu({addValues}) {
     let types=["Latte","Cappuccino","Black","Americano","Espresso","Doppio","Cortado","Red Eye","Galao","Lungo","Macchiato","Mocha","Ristretto","Flat White","Affogato","Irish"];
     return (
       <>
-      <div className="category">Add your choices:</div>
+      <div className="flex">
+      <motion.div className="category" animate={{x:[-1000,10,-10,0],transition:{duration:2}}}>Add your choices:</motion.div>
        <div className="list">
          {types.map((item, index) => (
          <div key={index}>
@@ -15,10 +18,12 @@ function CoffeeMenu({addValues}) {
          </div>
          ))}
          <Link to="/count">
-         <button className="btnw">
+         <motion.button whileHover={{scale:1.1,boxShadow:'0px 0px 2px white'}} animate={{y:[1000,0],transition:{duration:1}}} className="btnw">
            Next
-         </button>
+         </motion.button>
          </Link>
+      </div>
+      <motion.img initial={{scale:0.5}} animate={{scale:1,transition:{yoyo:Infinity,duration:3}}}className="image1" src={img1} alt="adsd"/>
       </div>
       </>
     )
